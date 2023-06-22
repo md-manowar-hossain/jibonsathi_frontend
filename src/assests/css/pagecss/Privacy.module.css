@@ -1,0 +1,21 @@
+.privacyWrapper {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+  text-align: justify;
+}
+
+.title {
+  background: white;
+  padding: 25px;
+  text-align: center;
+  font-size: 32px;
+}
+
+/* Mobile Resposive */
+@media only screen and (max-width: 576px) {
+  .privacyWrapper {
+    width: 95%;
+    padding: 10px;
+  }
+}

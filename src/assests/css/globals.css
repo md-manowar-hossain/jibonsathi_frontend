@@ -1,0 +1,63 @@
+@font-face {
+  src: url("../fonts/solaimanlipi_22-02-2012.woff") format("woff");
+  font-family: Bangla;
+}
+
+/* @font-face {
+  font-family: 'SolaimanLipi';
+  src: url('SolaimanLipi.eot');
+  src: url('SolaimanLipi.woff') format('woff'),
+       url('SolaimanLipi.ttf') format('truetype'),
+       url('SolaimanLipi.svg#SolaimanLipiNormal') format('svg'),
+       url('SolaimanLipi.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+/* @import url('https://fonts.maateen.me/solaiman-lipi/font.css'); */
+
+* {
+  border: 0;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  transition: 0.3s;
+  box-sizing: border-box;
+  font-family: 'SolaimanLipi', Bangla, Poppins, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'SolaimanLipi', Arial, sans-serif !important; */
+
+}
+
+.bangla {
+  font-family: Bangla;
+  font-size: 18px;
+}
+
+body {
+  max-width: 1366px;
+  min-width: 360px;
+  /* background: #119966; */
+  background: #78dbb6;
+}
+
+
+/* @media(min-width:300px){
+      .container{
+          color:#ff0000;
+      }
+  }
+  
+  @media(min-width:800px){
+      .container{
+          color:#7bff00;
+      }
+  } */
+
+
+@media (max-width: 576px) {
+  .gradient {
+    background: linear-gradient(90deg, #fff, #fff, #fff, #fff, #119966);
+  }
+}

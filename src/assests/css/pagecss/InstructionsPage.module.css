@@ -1,0 +1,49 @@
+.instructionsWrapper {
+  width: 60%;
+  margin: auto;
+  /* background: gray; */
+  /* padding: 20px; */
+}
+.instructionsTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #196;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.instructionsTitle > span {
+  margin: 0 10px;
+  font-size: 20px;
+}
+.instructionsDescriptionWrapper {
+  height: 0;
+  overflow: hidden;
+  transition: all 0.7s cubic-bezier(0, 1, 0, 1);
+}
+.instructionsDescriptionWrapper.show {
+  height: auto;
+  transition: all 0.7s cubic-bezier(0, 1, 0, 1);
+}
+.instructionsDescription {
+  padding: 10px;
+  color: black;
+  background: white;
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+/* Mobile Resposive */
+@media only screen and (max-width: 576px) {
+  .instructionsWrapper {
+    width: 94%;
+  }
+  .instructionsTitle {
+    font-size: 14px;
+  }
+}

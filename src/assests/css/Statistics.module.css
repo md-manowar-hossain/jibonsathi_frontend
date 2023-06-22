@@ -1,0 +1,60 @@
+.CardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #4bc87c; */
+}
+.card {
+  /* background: #ffffff; */
+  width: 80%;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 20px;
+  
+}
+.title {
+  font-size: 48px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.statisticsContainer {
+  width: 100%;
+  /* background: #4bc87c; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.statistics {
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+
+}
+
+/* Mobile Resposive  */
+/* ================================== */
+@media screen and (max-width: 576px) {
+  .card{
+    width: 95%;
+  }
+  .title{
+    text-align: center;
+    font-size: 28px;
+  }
+  .statisticsContainer{
+    flex-direction: column;
+  }
+  .statistics{
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}

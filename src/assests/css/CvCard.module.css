@@ -1,0 +1,74 @@
+.CardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #4bc87c; */
+}
+.card {
+  /* background: #ffffff; */
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 1px solid black; */
+  font-size: 20px;
+  padding: 20px;
+  padding-bottom: 0;
+  /* padding-top: 40px; */
+}
+.card .title {
+  font-size: 38px;
+}
+.btnContainer {
+  padding: 10px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* background: rgb(0, 218, 181) */
+}
+.btnContainer button {
+  width: 300px;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background: #119966;
+  color: white;
+  font-size: 20px;
+  border: 1px solid #196;
+}
+
+.btnContainer button:last-child {
+  background: none;
+  color: #196;
+  border: 1px solid #196;
+}
+.btnContainer button:active {
+  background: black;
+  color: white;
+  border: 1px solid #000000;
+}
+
+/* Mobile Resposive  */
+/* ================================== */
+@media only screen and (max-width: 576px) {
+  .card {
+    width: 95%;
+    padding: 5px;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .card .title {
+    font-size: 28px;
+  }
+  .btnContainer {
+    flex-direction: column;
+    width: 100%;
+  }
+  .btnContainer button {
+    width: 100%;
+  }
+  .btnContainer button:last-child {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+.donationSectionContainer{
+    width: 80%;
+    /* background: lightseagreen */
+    padding: 20px;
+    margin: auto;
+}
+.donationSectionContainer div{
+    font-size: 28px;
+    text-align: center;
+    padding: 10px;
+}
+.donationSectionContainer div a{
+   padding: 8px 20px;
+   background: #196;
+   color: white;
+   border-radius: 50px;
+}
+.donationSectionContainer div a:active{
+    background: white;
+    color: black;
+}

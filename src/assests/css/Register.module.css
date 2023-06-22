@@ -1,0 +1,150 @@
+.signupContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #4bc87c; */
+  padding: 30px;
+}
+.signup {
+  background: rgba(255, 255, 255, 0.3);
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #196;
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.56);
+}
+.title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.labelWithInput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* background: rgb(167, 218, 199); */
+  margin-bottom: 10px;
+}
+.labelWithInput label,
+input {
+  font-size: 16px;
+}
+.labelWithInput input {
+  padding: 8px 15px;
+  border-radius: 50px;
+  border: 2px solid #ffffff;
+}
+.labelWithInput input:focus {
+  border: 2px solid #196;
+}
+.genderContainer input {
+  margin-right: 5px;
+}
+.genderContainer label {
+  margin-right: 20px;
+}
+.terms {
+  margin-bottom: 10px;
+}
+.terms input {
+  margin-right: 5px;
+}
+.terms label {
+  font-size: 12px;
+}
+.terms span a {
+  text-decoration: none;
+}
+/* ====== */
+.login {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+  /* background: rgb(157, 230, 203); */
+}
+.login button {
+  background: #196;
+  width: 100%;
+  padding: 5px 20px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 20px;
+  border: 1px solid #196;
+}
+.login button:active {
+  background: #ffffff;
+  color: #196;
+  border: 1px solid #196;
+}
+.or {
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+.or::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  position: absolute;
+  background: black;
+  top: 14px;
+  left: 20px;
+}
+.or::before {
+  content: "";
+  width: 120px;
+  height: 1px;
+  position: absolute;
+  background: black;
+  top: 14px;
+  right: 20px;
+}
+.google {
+  text-align: center;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.google button {
+  background: none;
+  width: 100%;
+  padding: 5px 20px;
+  border-radius: 50px;
+  color: #000000;
+  font-size: 16px;
+  border: 1px solid #196;
+}
+.google button:active {
+  background: #ffffff;
+  color: #196;
+  border: 1px solid #196;
+}
+.noAccount {
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.create {
+  text-align: center;
+  width: 100%;
+}
+.create button {
+  /* background: #196; */
+  background: none;
+  width: 100%;
+  padding: 5px 20px;
+  border-radius: 50px;
+  /* color: #ffffff; */
+  color: #196;
+  font-size: 18px;
+  border: 1px solid #196;
+}
+.create button:active {
+  background: #ffffff;
+  color: #196;
+  border: 1px solid #196;
+}

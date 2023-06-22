@@ -1,0 +1,65 @@
+.card {
+  background: #ffffff;
+  width: 300px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.76);
+}
+.card:hover {
+  transform: translateY(-8px);
+}
+.top,
+.middle,
+.bottom {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+.top {
+  background: #196;
+  color: white;
+  border-radius: 14px 14px 0px 0px;
+}
+
+.dataContainer {
+  /* background: yellowgreen; */
+  display: flex;
+  justify-content: space-between;
+}
+.dataContainer div {
+  width: 50%;
+  text-align: center;
+}
+
+.bottom button {
+  background: #196;
+  color: white;
+  width: 60%;
+  padding: 8px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+  border: 1px solid #196;
+}
+.bottom button:active {
+  background: #ffffff;
+  color: #196;
+  border: 1px solid #196;
+}
+.left {
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+}
+.right {
+  border-bottom: 1px solid;
+}
+.borderTop{
+  border-top: 1px solid;
+}

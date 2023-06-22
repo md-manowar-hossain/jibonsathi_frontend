@@ -1,0 +1,158 @@
+.fullBiodataContainer {
+  width: 80%;
+  /* background: cyan; */
+  margin: auto;
+  display: flex;
+  padding: 40px 10px;
+}
+.shortDescriptionContainer {
+  width: 30%;
+  /* background: gray; */
+}
+/* .shortDescriptionWrapper {
+  background: rgb(122, 164, 218);
+} */
+.shortDescription {
+  background: #196;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+.shortDesHeadSec {
+  text-align: center;
+  padding: 20px;
+}
+.shortDesMainSec {
+  /* background: rgb(162, 221, 199); */
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.shortBiodataItem {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000000;
+  border-left: 0;
+  border-right: 0;
+  margin-bottom: 8px;
+}
+.shortDesMainSec .shortBiodataItem label,
+p {
+  width: 50%;
+  text-align: center;
+}
+#center{
+ text-align: center;
+}
+.shortBiodataItem label {
+  border-right: 1px solid black;
+}
+.shortListButtonContainer {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+.shortListButtonContainer button {
+  width: 110px;
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+.shortListButtonContainer button:first-child {
+  background: #ffffff;
+  border: 1px solid #196;
+}
+.shortListButtonContainer button:first-child:active {
+  background: black;
+  color: #ffffff;
+  border: 1px solid #000000;
+}
+.shortListButtonContainer button:last-child {
+  background: rgb(0, 0, 0);
+  border: 1px solid #196;
+  color: rgb(255, 255, 255);
+}
+.shortListButtonContainer button:last-child:active {
+  background: #ffffff;
+  color: #000000;
+  border: 1px solid #ffffff;
+}
+
+/* Full Description */
+.fullDescriptionContainer {
+  width: 70%;
+  /* background: #e6d9d9; */
+  font-size: 18px;
+  padding: 0px 10px;
+}
+.commonInfoContainer {
+  /* background: #196; */
+  border: 1px solid black;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.commonInfoContainer h3{
+  background: #196;
+  color: #ffffff;
+  font-size: 20px;
+}
+.commonInfoItem {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid #000000; */
+  margin-bottom: 10px;
+  background: #c6ddd8;;
+}
+.commonInfoContainer .commonInfoItem:nth-of-type(even) {
+  background: #4ed2a1;
+}
+.commonInfoContainer .commonInfoItem label,
+p {
+  width: 50%;
+  text-align: left;
+  padding: 0px 5px;
+  /* padding: 10px; */
+}
+.commonInfoItem label {
+  border-right: 1px solid black;
+}
+.contactInfoSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.contactInfoSection button{
+  background: #196;
+  color: #ffffff;
+  border: 1px solid #196;
+  padding: 5px 20px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+.contactInfoSection button:active{
+  background: #ffffff;
+  color: #196;
+  border: 1px solid #196;
+}
+
+@media screen and (max-width: 576px) {
+  .fullBiodataContainer{
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 0px;
+
+  }
+  .shortDescriptionContainer{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .fullDescriptionContainer{
+    width: 100%;
+    padding: 0;
+    font-size: 14px;
+  }
+  .contactInfoSection{
+    width: 100%;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,12 @@
+.requirementsContainer{
+    width: 80%;
+    background: rgb(82, 69, 69);
+}
+.requirementsWrapper{
+    background: rgb(160, 129, 189);
+}
+.requirementsTitle{
+    background: white;
+    text-align: center;
+    padding: 20px;
+}

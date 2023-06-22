@@ -1,0 +1,114 @@
+.NavContainer {
+  /* background: blue; */
+  display: flex;
+  position: relative;
+  padding: 0.5rem 0px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.76);
+}
+.nav {
+  /* background: rgb(80, 240, 240); */
+  width: 92%;
+  padding-top: 8px;
+}
+.logo {
+  margin: 0 0.6rem;
+}
+.navLink {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  padding: 0.3em 0.5em;
+  text-decoration: none;
+}
+.navLink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  transition: 0.3s;
+  background: #119966;
+}
+.navLink:hover::after {
+  width: 100%;
+}
+.gradient {
+  background: linear-gradient(90deg, #fff, #fff, #119966, #119966, #119966);
+}
+.logInContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logInContainer button {
+  background: #000000;
+  color: #fff;
+  width: 60px;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.logInContainer button:active {
+  background: #fff;
+  color: #000000;
+}
+.active {
+  color: #119966;
+}
+.barBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  display: none;
+}
+.barBtnContainer button {
+  background: none;
+}
+
+
+/* Mobile Responsive */
+/* ===================================== */
+@media screen and (max-width: 576px) {
+  .barBtnContainer {
+    width: 15%;
+    display: block;
+  }
+  .logoContainer{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .logInContainer{
+    width: 15%;
+
+  }
+  .nav {
+    background: rgba(149, 240, 206, 0.9);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    transform: translateX(-110%);
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.76);
+  }
+  .navLink {
+    padding: 15px;
+  }
+  .toggle {
+    transform: none;
+  }
+  .gradient {
+    background: linear-gradient(90deg, #fff, #fff, #119966);
+  }
+ 
+}

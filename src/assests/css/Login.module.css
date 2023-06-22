@@ -1,0 +1,138 @@
+.CardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: #4bc87c; */
+  padding: 30px;
+}
+.card {
+  background: rgba(255, 255, 255, 0.3);
+  width: 350px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #196;
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.56);
+}
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.card div {
+  /* background: #4bc87c; */
+  width: 100%;
+  margin-bottom: 10px;
+}
+.card div input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  padding: 8px 15px;
+  border: 2px solid #ffffff;
+
+}
+.card div input:focus {
+  border: 2px solid #196;
+}
+.rememberContainer {
+  /* background: #4bc87c; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+}
+
+.rememberMe input[type="checkbox"] {
+  width: 20px;
+  font-size: 12px;
+  display: inline;
+  /* color: rgb(255, 0, 76); */
+}
+.forgetPass {
+  text-align: right;
+}
+.login {
+  text-align: center;
+  /* background: rgb(157, 230, 203); */
+}
+.login button {
+  background: #196;
+  width: 100%;
+  padding: 5px 20px;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 20px;
+  border: 1px solid #196;
+}
+.login button:active {
+  background: #ffffff;
+  color: #196;
+  border: 1px solid #196;
+}
+.or {
+  text-align: center;
+  position: relative;
+}
+.or::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  position: absolute;
+  background: black;
+  top: 14px;
+  left: 20px;
+}
+.or::before {
+  content: "";
+  width: 120px;
+  height: 1px;
+  position: absolute;
+  background: black;
+  top: 14px;
+  right: 20px;
+}
+.google {
+  text-align: center;
+}
+.google button {
+  background: none;
+  width: 100%;
+  padding: 5px 20px;
+  border-radius: 50px;
+  color: #000000;
+  font-size: 16px;
+  border: 1px solid #196;
+}
+.google button:active {
+  background: #ffffff;
+  color: #196;
+  border: 1px solid #196;
+}
+.noAccount {
+  text-align: center;
+  font-size: 12px;
+}
+.create {
+  text-align: center;
+}
+.create button {
+  /* background: #196; */
+  background: none;
+  width: 100%;
+  padding: 5px 20px;
+  border-radius: 50px;
+  /* color: #ffffff; */
+  color: #196;
+  font-size: 18px;
+  border: 1px solid #196;
+}
+.create button:active {
+  background: #ffffff;
+  color: #196;
+  border: 1px solid #196;
+}

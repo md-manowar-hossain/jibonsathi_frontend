@@ -1,0 +1,110 @@
+.dashboardManuBar {
+    width: 250px;
+    /* display: none; */
+    transform: translateX(300px);
+    position: absolute;
+    top: 50px;
+    right: 0;
+    /* background: rgb(207, 61, 61); */
+  }
+  .dashboardManuBarWrapper{
+    position: relative;
+    background: #ffffff;
+    padding: 5px;
+
+  }
+  .dashboardManuBarTopSec {
+    text-align: center;
+  }
+  .avaterContainer {
+    text-align: center;
+    padding: 10px;
+  }
+  .avaterContainer img{
+    width: 50px;
+  }
+ 
+  .biodataBtnContainer a {
+    width: 120px;
+    font-size: 14px;
+    background: #196;
+    padding: 5px 10px;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid #196;
+  }
+  .biodataBtnContainer button:active {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #196;
+  }
+  
+  .biodataStatus {
+    display: inline-block;
+    width: 100px;
+    /* background: #196; */
+    margin-bottom: 10px;
+    /* color: blueviolet;
+      border: 1px solid blueviolet; */
+    border-radius: 50px;
+    /* color: orange;
+      border: 1px solid orange; */
+  
+    color: orangered;
+    border: 1px solid orangered;
+  }
+  .published {
+    color: #196;
+    border: 1px solid #196;
+    border-radius: 50px;
+  }
+  .incomplete {
+    color: orangered;
+    border: 1px solid orangered;
+    border-radius: 50px;
+  }
+  .ManuBarLinkContainer {
+    list-style-type: none;
+    /* padding: 20px; */
+    text-decoration: none;
+    color: black;
+  }
+  .ManuBarLinkContainer li {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .ManuBarLinkContainer li a {
+    text-decoration: none;
+    color: #000000;
+    display: flex;
+    align-items: center;
+  }
+  .ManuBarLinkContainer img {
+    margin-right: 20px;
+  }
+  
+  .FaIcon {
+    margin-right: 20px;
+    fill: #196;
+    font-size: 24px;
+  }
+  .ManuBarLinkContainer .active {
+    color: #196;
+  }
+
+  .show{
+    /* display: block; */
+    transform: none;
+    transition: 0.3s;
+
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .dashboardManuBar {
+      width: 200px;
+      top: 70px;
+    }
+    
+  } 
+  
