@@ -247,10 +247,10 @@ export default function FaqAccordion() {
           {data.map((data, index) => (
             <div key={index} className={styles.faq}>
               <div onClick={() => toggle(index)} className={styles.faqTitle}>
-                <h2>
+                <h3>
                   {/* <span>{data.id}. </span> */}
                   {data.question}
-                </h2>
+                </h3>
                 <span>{selected === index ? "-" : "+"}</span>
               </div>
 

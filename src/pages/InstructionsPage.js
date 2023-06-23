@@ -224,7 +224,7 @@ export default function InstructionsPage() {
                 onClick={() => toggle(index)}
                 className={styles.instructionsTitle}
               >
-                <h2>{data.title}</h2>
+                <h3>{data.title}</h3>
                 <span>{selected === index ? "-" : "+"}</span>
               </div>
               <div

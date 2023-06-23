@@ -3,8 +3,6 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import DashboardContent from "../components/DashboardContent";
 import DashboardManuBar from "../components/DashboardManuBar";
-import { Outlet } from "react-router-dom";
-import { useState } from "react";
 
 
 export default function Dashboard() {

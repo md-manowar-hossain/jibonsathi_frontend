@@ -1,13 +1,11 @@
 import * as React from "react";
-import male from "../assests/images/male.svg";
 import styles from "../assests/css/Login.module.css";
 import { useNavigate } from "react-router-dom";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import { useContext } from "react";
 import { AuthContext } from "./AuthContext";
 
 export default function Login() {
-  const { isLoggedIn } = useContext(AuthContext);
   const { login } = useContext(AuthContext);
 
   const navigate = useNavigate();
@@ -92,7 +90,7 @@ export default function Login() {
               <label htmlFor="rememberMe">Remember Me</label>
             </div>
             <div className={styles.forgetPass}>
-              <a href="#">Forgot Password?</a>
+              <a href="/forget-password">Forgot Password?</a>
             </div>
           </div>
           <div className={styles.login}>

@@ -1,6 +1,6 @@
 .dashboardManuBar {
     width: 250px;
-    /* display: none; */
+    display: none;
     transform: translateX(300px);
     position: absolute;
     top: 50px;
@@ -94,8 +94,8 @@
   }
 
   .show{
-    /* display: block; */
     transform: none;
+    display: block;
     transition: 0.3s;
 
   }

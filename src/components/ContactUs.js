@@ -1,5 +1,4 @@
 import * as React from "react";
-import male from "../assests/images/male.svg";
 import styles from "../assests/css/ContactUs.module.css"
 import { useNavigate } from "react-router-dom";
 

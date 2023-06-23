@@ -1,21 +1,36 @@
-.donationSectionContainer{
-    width: 80%;
-    /* background: lightseagreen */
-    padding: 20px;
-    margin: auto;
+.donationSectionContainer {
+  width: 80%;
+  /* background: lightseagreen */
+  padding: 20px;
+  margin: auto;
 }
-.donationSectionContainer div{
-    font-size: 28px;
-    text-align: center;
-    padding: 10px;
+.donationSectionContainer div {
+  font-size: 28px;
+  text-align: center;
+  padding: 10px;
+  color: blue;
 }
-.donationSectionContainer div a{
-   padding: 8px 20px;
-   background: #196;
-   color: white;
-   border-radius: 50px;
+.donationSectionContainer div a {
+  padding: 8px 20px;
+  background: #196;
+  color: white;
+  border-radius: 50px;
 }
-.donationSectionContainer div a:active{
-    background: white;
-    color: black;
+.donationSectionContainer div a:active {
+  background: white;
+  color: black;
+}
+
+/* Mobile Responsive */
+@media only screen and (max-width: 576px) {
+  .donationSectionContainer {
+    width: 100%;
+    padding: 5px;
+  }
+  .donationSectionContainer div {
+    font-size: 20px;
+  }
+  .donationSectionContainer div a {
+    font-size: 20px;
+  }
 }

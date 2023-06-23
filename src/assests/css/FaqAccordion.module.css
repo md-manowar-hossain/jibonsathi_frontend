@@ -11,13 +11,13 @@
   background: #196;
   color: white;
   padding: 10px;
-  font-size: 14px;
+  font-size: 18px;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
   cursor: pointer;
 }
 .faqTitle > span {
-  margin:0 10px;
+  margin: 0 10px;
   font-size: 20px;
 }
 .FaqAnswerWrapper {
@@ -36,16 +36,14 @@
   font-size: 18px;
   text-align: justify;
   margin-bottom: 10px;
-
 }
 
 /* Mobile Resposive */
 @media only screen and (max-width: 576px) {
-  .faqWrapper{
-  width: 94%;
-
+  .faqWrapper {
+    width: 94%;
   }
-  .faqTitle{
+  .faqTitle {
     font-size: 14px;
   }
 }

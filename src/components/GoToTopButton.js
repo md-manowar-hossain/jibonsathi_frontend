@@ -29,7 +29,7 @@ const GoToTopButton = () => {
       className={styles.goToTopButton}
       onClick={scrollToTop}
     >
-      <img src={GoToTop} width={30}/>
+      <img src={GoToTop} width={30} alt="Icon"/>
     </button>)  
     }
    </>

@@ -15,7 +15,7 @@ export default function BiodataIntro({ records, loading }) {
     <div key={i} className={styles.card}>
       <div className={styles.top}>
         <div className={styles.iconContainer}>
-          <img src={icon} width={60} />
+          <img src={icon} width={60} alt="Icon"/>
         </div>
         <div>বায়োডাটা নং</div>
         <div>{data.id}</div>

@@ -1,5 +1,5 @@
 import React, { createContext, useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 
 const AuthContext = createContext();
 
@@ -35,7 +35,7 @@ const AuthProvider = ({ children }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ isLoggedIn, email, login, logout }}>
+    <AuthContext.Provider value={{ isLoggedIn, email, password, login, logout }}>
       {children}
     </AuthContext.Provider>
   );

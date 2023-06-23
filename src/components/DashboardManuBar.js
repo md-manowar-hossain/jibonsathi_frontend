@@ -3,7 +3,6 @@ import { FaHome } from "react-icons/fa";
 import Avater from "../assests/images/contact.svg";
 import icon from "../assests/images/checkMark.svg";
 import styles from "../assests/css/DashboardManuBar.module.css";
-import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "./AuthContext";
 
@@ -16,7 +15,7 @@ export default function DashboardManuBar() {
     <div className={styles.dashboardManuBar}>
       <div className={styles.dashboardManuBarTopSec}>
         <div className={styles.avaterContainer}>
-          <img src={Avater} width={80} />
+          <img src={Avater} width={80} alt="Icon"/>
         </div>
         <div>Biodata Status</div>
         <div
@@ -45,7 +44,7 @@ export default function DashboardManuBar() {
               to={"/"}
               className={(navInfo) => (navInfo.isActive ? styles.active : "")}
             >
-              <img src={icon} width={25} />
+              <img src={icon} width={25} alt="Icon"/>
               Edit Biodata
             </NavLink>
           </li>
@@ -54,7 +53,7 @@ export default function DashboardManuBar() {
               to={"/dashboard/choice-list"}
               className={(navInfo) => (navInfo.isActive ? styles.active : "")}
             >
-              <img src={icon} width={25} />
+              <img src={icon} width={25} alt="Icon"/>
               Choice List
             </NavLink>
           </li>
@@ -63,7 +62,7 @@ export default function DashboardManuBar() {
               to={"/dashboard/seen-list"}
               className={(navInfo) => (navInfo.isActive ? styles.active : "")}
             >
-              <img src={icon} width={25} />
+              <img src={icon} width={25} alt="Icon"/>
               My Seen
             </NavLink>
           </li>
@@ -72,7 +71,7 @@ export default function DashboardManuBar() {
               to={"/dashboard/support-report"}
               className={(navInfo) => (navInfo.isActive ? styles.active : "")}
             >
-              <img src={icon} width={25} />
+              <img src={icon} width={25} alt="Icon"/>
               Support & Report
             </NavLink>
           </li>
@@ -81,13 +80,13 @@ export default function DashboardManuBar() {
               to={"/dashboard/settings"}
               className={(navInfo) => (navInfo.isActive ? styles.active : "")}
             >
-              <img src={icon} width={25} />
+              <img src={icon} width={25} alt="Icon"/>
               Settings
             </NavLink>
           </li>
           <li>
             <NavLink onClick={logout}>
-              <img src={icon} width={25} />
+              <img src={icon} width={25} alt="Icon"/>
               Logout
             </NavLink>
           </li>

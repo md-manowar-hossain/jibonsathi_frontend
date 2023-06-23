@@ -16,7 +16,7 @@ export default function Working() {
           <div className={styles.statisticsContainer}>
             <div className={styles.statistics}>
               <div className={styles.iconContainer}>
-                <img src={male} width={80} />
+                <img src={male} width={80} alt="Icon" />
               </div>
               <div className={styles.subTitle}>বায়োডাটা তৈরি করুন</div>
               <div className={styles.description}>
@@ -25,7 +25,7 @@ export default function Working() {
             </div>
             <div className={styles.statistics}>
               <div className={styles.iconContainer}>
-                <img src={male} width={80} />
+                <img src={male} width={80} alt="Icon" />
               </div>
               <div className={styles.subTitle}>বায়োডাটা খুঁজুন</div>
               <div className={styles.description}>
@@ -35,7 +35,7 @@ export default function Working() {
             </div>
             <div className={styles.statistics}>
               <div className={styles.iconContainer}>
-                <img src={male} width={80} />
+                <img src={male} width={80}  alt="Icon"/>
               </div>
               <div className={styles.subTitle}>যোগাযোগ করুন</div>
               <div className={styles.description}>
@@ -45,7 +45,7 @@ export default function Working() {
             </div>
             <div className={styles.statistics}>
               <div className={styles.iconContainer}>
-                <img src={male} width={80} />
+                <img src={male} width={80}  alt="Icon"/>
               </div>
               <div className={styles.subTitle}>বিবাহ সম্পন্ন করুন</div>
               <div className={styles.description}>

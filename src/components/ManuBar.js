@@ -51,7 +51,7 @@ export default function ManuBar({ show }) {
                 to={"/"}
                 className={(navInfo) => (navInfo.isActive ? styles.active : "")}
               >
-                <img src={icon} width={20} />
+                <img src={icon} width={20} alt="Icon"/>
                 Edit Biodata
               </NavLink>
             </li>
@@ -60,7 +60,7 @@ export default function ManuBar({ show }) {
                 to={"/dashboard/choice-list"}
                 className={(navInfo) => (navInfo.isActive ? styles.active : "")}
               >
-                <img src={icon} width={20} />
+                <img src={icon} width={20} alt="Icon"/>
                 Choice List
               </NavLink>
             </li>
@@ -69,7 +69,7 @@ export default function ManuBar({ show }) {
                 to={"/dashboard/seen-list"}
                 className={(navInfo) => (navInfo.isActive ? styles.active : "")}
               >
-                <img src={icon} width={20} />
+                <img src={icon} width={20} alt="Icon"/>
                 My Seen
               </NavLink>
             </li>
@@ -78,7 +78,7 @@ export default function ManuBar({ show }) {
                 to={"/dashboard/support-report"}
                 className={(navInfo) => (navInfo.isActive ? styles.active : "")}
               >
-                <img src={icon} width={20} />
+                <img src={icon} width={20} alt="Icon"/>
                 Support & Report
               </NavLink>
             </li>
@@ -87,13 +87,13 @@ export default function ManuBar({ show }) {
                 to={"/dashboard/settings"}
                 className={(navInfo) => (navInfo.isActive ? styles.active : "")}
               >
-                <img src={icon} width={20} />
+                <img src={icon} width={20} alt="Icon"/>
                 Settings
               </NavLink>
             </li>
             <li>
               <NavLink onClick={logout}>
-                <img src={icon} width={20} />
+                <img src={icon} width={20} alt="Icon"/>
                 Logout
               </NavLink>
             </li>

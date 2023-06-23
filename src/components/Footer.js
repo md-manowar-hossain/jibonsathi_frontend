@@ -15,8 +15,8 @@ export default function Footer() {
           <div><Link to={"/donate"}>Donation</Link></div>
         </div>
         <div className={styles.socialIconContainer}>
-          <div className={styles.icon}><Link to={"https://www.facebook.com"}><img src={Facebook} width={25}/></Link></div>
-          <div className={styles.icon}><Link to={"https://www.youtube.com"}><img src={Youtube} width={25}/></Link></div>
+          <div className={styles.icon}><Link to={"https://www.facebook.com"}><img src={Facebook} width={25} alt="Icon"/></Link></div>
+          <div className={styles.icon}><Link to={"https://www.youtube.com"}><img src={Youtube} width={25} alt="Icon"/></Link></div>
         </div>
         <div className={styles.copyright}>Copyright &copy; {`${year}`} JibonSathi All Rights Reserved.</div>
       </div>

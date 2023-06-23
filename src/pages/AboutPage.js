@@ -1,7 +1,6 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import About from "../components/About"
-import { useState } from "react";
 
 
 export default function AboutPage() {

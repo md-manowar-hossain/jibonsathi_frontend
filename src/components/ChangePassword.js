@@ -1,7 +1,5 @@
 import * as React from "react";
-import male from "../assests/images/male.svg";
 import styles from "../assests/css/ChangePassword.module.css";
-import { useNavigate } from "react-router-dom";
 
 export default function ChangePassword() {
   //   const navigate = useNavigate();

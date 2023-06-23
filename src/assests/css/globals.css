@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   src: url("../fonts/solaimanlipi_22-02-2012.woff") format("woff");
   font-family: Bangla;
-}
+} */
 
 /* @font-face {
   font-family: 'SolaimanLipi';
@@ -14,7 +14,7 @@
   font-style: normal;
 } */
 
-/* @import url('https://fonts.maateen.me/solaiman-lipi/font.css'); */
+@import url('https://fonts.maateen.me/solaiman-lipi/font.css');
 
 * {
   border: 0;
@@ -25,23 +25,26 @@
   list-style-type: none;
   transition: 0.3s;
   box-sizing: border-box;
-  font-family: 'SolaimanLipi', Bangla, Poppins, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "SolaimanLipi", Poppins, "Segoe UI", Tahoma, Geneva,
+    Verdana, sans-serif;
   /* font-family: 'SolaimanLipi', Arial, sans-serif !important; */
-
 }
 
-.bangla {
+/* .bangla {
   font-family: Bangla;
   font-size: 18px;
-}
+} */
 
 body {
   max-width: 1366px;
   min-width: 360px;
-  /* background: #119966; */
-  background: #78dbb6;
+  overflow-x: hidden;
+  /* background: #78dbb6; */
+  background-color: #78dbb6;
+  background-image: url("../images/subtle-prism.svg");
+  background-attachment: fixed;
+  background-size: cover;
 }
-
 
 /* @media(min-width:300px){
       .container{
@@ -55,9 +58,10 @@ body {
       }
   } */
 
-
 @media (max-width: 576px) {
   .gradient {
     background: linear-gradient(90deg, #fff, #fff, #fff, #fff, #119966);
   }
 }
+
+/* ============================= */

@@ -6,7 +6,7 @@ import Pagination from "../components/Pagination";
 import BiodataIntro from "../components/BiodataIntro";
 import Filter from "../components/Filter";
 import Data from "../assests/MOCK_DATA.json";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function AllBiodata() {
   const [isVisible, setVisible] = useState(false);

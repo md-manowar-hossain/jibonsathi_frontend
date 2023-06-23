@@ -1,6 +1,5 @@
-import icon from "../assests/images/checkMark.svg";
+
 import secondaryIcon from "../assests/images/hearts.svg";
-import { Link } from "react-router-dom";
 import styles from "../assests/css/DashboardContent.module.css";
 import CvCard from "./CvCard";
 
@@ -52,7 +51,7 @@ export default function DashboardContent() {
         <div className={styles.widthContentContainer}>
           <div className={styles.dashboardContentCardSecondaryWidth}>
             <div className={styles.secondaryIconWrapper}>
-              <img src={secondaryIcon} width={40} />
+              <img src={secondaryIcon} width={40} alt="Icon"/>
             </div>
             <div>
               <h1>0</h1>
@@ -63,7 +62,7 @@ export default function DashboardContent() {
 
           <div className={styles.dashboardContentCardSecondaryWidth}>
             <div className={styles.secondaryIconWrapper}>
-              <img src={secondaryIcon} width={40} />
+              <img src={secondaryIcon} width={40} alt="Icon"/>
             </div>
             <div>
               <h1>0</h1>

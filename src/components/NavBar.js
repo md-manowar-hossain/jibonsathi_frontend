@@ -4,7 +4,7 @@ import Man from "../assests/images/whiteman.svg";
 import Close from "../assests/images/close.svg";
 import styles from "../assests/css/Nav.module.css";
 import { NavLink, useNavigate } from "react-router-dom";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import ManuBar from "../components/ManuBar";
 import { useContext } from "react";
 import { AuthContext } from "./AuthContext";
@@ -30,9 +30,9 @@ export default function NavBar() {
   //     }
   //   };
 
-  //   document.addEventListener('click', handleOutsideClick);
+  //   document.addEventListener("click", handleOutsideClick);
   //   return () => {
-  //     document.removeEventListener('click', handleOutsideClick);
+  //     document.removeEventListener("click", handleOutsideClick);
   //   };
   // }, []);
 
@@ -40,9 +40,8 @@ export default function NavBar() {
   //   setIsVisible(!isVisible);
   // };
 
+  
   const navigate = useNavigate();
-
-  // const auth = true;
 
   const show = () => {
     setToggled(!isToggled);
@@ -59,11 +58,16 @@ export default function NavBar() {
       <nav className={`${styles.NavContainer} ${styles.gradient}`}>
         <div className={styles.barBtnContainer}>
           <button onClick={handleClick}>
-            <img src={isClicked ? Close : Bars} width={30} height={30} />
+            <img
+              src={isClicked ? Close : Bars}
+              width={30}
+              height={30}
+              alt="Icon"
+            />
           </button>
         </div>
         <div className={styles.logoContainer}>
-          <img src={Logo} className={styles.logo} height={30} />
+          <img src={Logo} className={styles.logo} height={30} alt="Icon" />
         </div>
         <div
           className={isClicked ? `${styles.nav} ${styles.toggle}` : styles.nav}
@@ -122,9 +126,9 @@ export default function NavBar() {
         <div className={styles.logInContainer}>
           {isLoggedIn ? (
             <>
-              {/* <button onClick={login}>লগআউট</button> */}
               <img onClick={show} src={Man} width={30} alt="Man" />
               <ManuBar show={isToggled} />
+
             </>
           ) : (
             <button onClick={login}>লগইন</button>
